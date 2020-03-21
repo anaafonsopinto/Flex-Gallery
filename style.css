@@ -1,0 +1,17 @@
+.grid{
+    display:flex;
+}
+.cell{
+    flex:1; /*  flex-grow-1, flex-shrink-1, basis-0% _ no matters the content of the cells it will be grow dynamically */
+}
+.cell > div {
+    background-color: rgba(251, 255, 10, 0.7);
+    height: 100%; 
+    padding: 10px;
+}
+.gutters{
+    margin: -10px 0 30px -10px;
+}
+.gutters .cell{
+    padding: 10px 0 0 10px;
+}
